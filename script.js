@@ -98,13 +98,6 @@ function init(){
 function animate2(){
     requestAnimationFrame(animate2);
     ctx.clearRect(0, 0, innerWidth, canvas2.height);
-    ctx.beginPath();
-    ctx.arc(canvas2.width/2, update, 50, 0, 2 * Math.PI);
-    ctx.stroke();
-    update -= 5;
-    if(update < -100){
-      update = document.body.offsetHeight + 50;
-    }
     for(let i = 0; i < n; i++){
         let elem = Balls[i];
         ctx.beginPath();
@@ -114,8 +107,6 @@ function animate2(){
         ctx.fillStyle = "white";
         ctx.fill();
     }
-    ctx.fillStyle = "white";
-    ctx.fill();
 }
 
 init();
@@ -149,8 +140,8 @@ canvas3.width = window.innerWidth;
 canvas3.height = document.body.offsetHeight;
 let update2 = canvas3.height;
 let n2 = 10;
-let rmin2 = 10;
-let rmax2 = 50;
+let rmin2 = Math.floor(window.innerWidth/40);
+let rmax2 = Math.floor(window.innerWidth/20);
 let vmin2 = 2;
 let vmax2 = 5;
 let Balls2 = [];
@@ -180,12 +171,6 @@ function animate3(){
     requestAnimationFrame(animate3);
     // ctx.clearRect(0, 0, innerWidth, canvas3.height);
     ctx.beginPath();
-    ctx.arc(canvas3.width/2, update2, 50, 0, 2 * Math.PI);
-    ctx.stroke();
-    update2 -= 5;
-    if(update2 < -100){
-      update2 = 0;
-    }
     for(let i = 0; i < n2; i++){
         let elem = Balls2[i];
         ctx.beginPath();
@@ -195,8 +180,6 @@ function animate3(){
         ctx.fillStyle = "white";
         ctx.fill();
     }
-    ctx.fillStyle = "white";
-    ctx.fill();
 }
 
 init2();
