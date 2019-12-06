@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://www.fontmagic.com/samarkan.font');
+@import url('https://fonts.googleapis.com/css?family=Hind:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kalam:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tillana:400&display=swap');
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#landing{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#canvasContainer{
+    /* filter: blur(25px) contrast(50); */
+}
+
+canvas {
+    /* filter: blur(5px) contrast(20); */
+    /* mix-blend-mode: difference; */
+}
+
+#one{
+    mix-blend-mode: difference;
+    background: black;
+    /* filter: blur(10px) contrast(20); */
+}
+
+#two{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    mix-blend-mode: difference;
+    /* filter: blur(15px) contrast(20); */
+    /* background: black; */
+}
+
+#three{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    mix-blend-mode: difference;
+    /* filter: blur(15px) contrast(20); */
+    /* background: black; */
+}
+
+#name{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 8vw;
+    width: 100%;
+    text-align: center;
+    mix-blend-mode: difference;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: Samarkan;
+    /* font-family: 'Hind', sans-serif; */
+    font-family: 'Kalam', cursive;
+    font-family: 'Tillana', cursive;
+}
+
+#firstName{
+    font-family: 'Tillana', cursive;
+}
+
+#lastName{
+    font-family: Samarkan;
+}
+
+#greeting{
+    font-size: 0.2em;
+    margin: 0;
+    padding: 0;
+}
+
+.section{
+    height: 100vh;
+    background: white;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+#about{
+    color: black;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    /* mix-blend-mode: difference; */
+}
+
+.Heading{
+    color: black;
+    flex: 1;
+    font-size: 2em;
+    position: relative;
+}
+
+/* .Heading::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background: black;
+} */
+
+.Card{
+    flex: 2;
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
