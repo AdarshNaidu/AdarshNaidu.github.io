@@ -1,16 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a href="https://adarshnaidu.github.io"><h1>AdarshNaidu.github.io</h1></a>
 
-## Running on Repl.it
-
-Simply hit run once and start coding. Will hot reload the web view. 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dacb097f-3d29-4079-b601-df25c9aea87a/deploy-status)](https://app.netlify.com/sites/adarsh-naidu/deploys)
 
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## To setup
+```
+yarn install
+yarn start
+```
