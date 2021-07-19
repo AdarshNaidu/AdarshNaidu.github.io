@@ -1,0 +1,126 @@
+/* .expwrap{
+  width: 100vw;
+  overflow-x: hidden;
+  position: absolute;
+} */
+
+.exp{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border: 30px solid white;
+    border-radius: 40px;
+    background: black;
+    mix-blend-mode: difference;
+    pointer-events:none;
+  }
+  
+  #exp1{
+    top: 600px;
+    left: 10vw;
+  }
+  
+  #exp2{
+    top: 700px;
+    left: 90vw;
+    width: 300px;
+    height: 300px;
+    border: 60px solid white;
+    border-radius: 80px;
+  }
+  
+  #exp3{
+    top: 1800px;
+    left: 5vw;
+    width: 100px;
+    height: 100px;
+  }
+  
+  #exp4{
+    top: 1950px;
+    left: 10vw;
+    width: 90px;
+    height: 90px;
+  }
+  
+  #exp5{
+    top: 1800px;
+    left: 85vw;
+    width: 150px;
+    height: 150px;
+  }
+  
+  #exp6{
+    top: 3800px;
+    left: 80vw;
+    width: 90px;
+    height: 90px;
+  }
+  
+  #exp7{
+    top: 2750px;
+    left: -120px;
+    width: 200px;
+    height: 200px;
+    border: 40px solid white;
+    border-radius: 70px;
+  }
+  
+
+@media screen and (max-width: 600px){
+  .exp{
+    display: none;
+  }
+
+  #exp1{
+    top: 600px;
+    left: 70vw;
+  }
+  
+  #exp2{
+    top: 600px;
+    left: -30vw;
+    width: 200px;
+    height: 200px;
+    border: 40px solid white;
+    border-radius: 80px;
+  }
+  
+  #exp3{
+    display: none;
+    top: 1100px;
+    left: 70vw;
+    width: 100px;
+    height: 100px;
+  }
+  
+  #exp4{
+    top: 1600px;
+    left: 70vw;
+    width: 90px;
+    height: 90px;
+  }
+  
+  #exp5{
+    top: 1800px;
+    left: -20vw;
+    width: 150px;
+    height: 150px;
+  }
+  
+  #exp6{
+    top: 3600px;
+    left: 70vw;
+    width: 90px;
+    height: 90px;
+  }
+  
+  #exp7{
+    top: 2750px;
+    left: -120px;
+    width: 200px;
+    height: 200px;
+    border: 40px solid white;
+    border-radius: 70px;
+  }
+}

@@ -1,0 +1,25 @@
+#landing {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  #one {
+    margin-top: -50px;
+    mix-blend-mode: difference;
+    background: black;
+    filter: invert(100%);
+  }
+  
+  #name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 8vw;
+    width: 100%;
+    text-align: center;
+    mix-blend-mode: difference;
+    /* font-family: "Tillana", cursive; */
+  }
