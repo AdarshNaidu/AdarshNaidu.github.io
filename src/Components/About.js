@@ -46,7 +46,7 @@ function About(){
                 </div>
                 <div className="waypoint" data-animation="fade-in" data-delay=".2s">
                   <div className="label bold">College</div>
-                  <div>Sophomore student studying Information Technology. NITK Surathkal</div>
+                  <div>Final year student studying Information Technology. NITK Surathkal</div>
                 </div>
               </div>
             
