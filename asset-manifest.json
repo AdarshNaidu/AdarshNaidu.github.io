@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b978fc9c.chunk.css",
+    "main.js": "/static/js/main.292eaf42.chunk.js",
+    "main.js.map": "/static/js/main.292eaf42.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fb3cf872.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fb3cf872.js.map",
+    "static/js/2.c5f5b089.chunk.js": "/static/js/2.c5f5b089.chunk.js",
+    "static/js/2.c5f5b089.chunk.js.map": "/static/js/2.c5f5b089.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.153461de64b2b63d1c0b91fcf241e008.js": "/precache-manifest.153461de64b2b63d1c0b91fcf241e008.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b978fc9c.chunk.css.map": "/static/css/main.b978fc9c.chunk.css.map",
+    "static/media/style.css": "/static/media/Raleway-SemiBold.17ba6410.ttf",
+    "static/media/dp.png": "/static/media/dp.19453738.png",
+    "static/media/materialdesignicons.min.css": "/static/media/materialdesignicons-webfont_1.be7ea589.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb3cf872.js",
+    "static/js/2.c5f5b089.chunk.js",
+    "static/css/main.b978fc9c.chunk.css",
+    "static/js/main.292eaf42.chunk.js"
+  ]
+}
