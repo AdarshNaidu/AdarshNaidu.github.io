@@ -1,6 +1,6 @@
 {
   "name": "my-portfolio",
-	"homepage": "https://AdarshNaidu.github.io",
+  "homepage": "https://AdarshNaidu.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
